@@ -1,0 +1,23 @@
+MRO::Compat version 0.01
+===========================
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+   Requires Test::More 0.47 to test
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2007 Brandon L Black <blblack@gmail.com>
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself. 
+
