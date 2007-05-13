@@ -15,5 +15,5 @@ no_index:
     - inc
     - t
 requires: 
-  Class::C3: 0.17
-version: 0.01_01
+  Class::C3: 0.18
+version: 0.02

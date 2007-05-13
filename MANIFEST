@@ -20,3 +20,5 @@ t/01use.t
 t/02pod.t
 t/03pod_coverage.t
 t/10basic.t
+t/15pkg_gen.t
+t/20mros.t
