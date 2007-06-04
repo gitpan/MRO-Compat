@@ -4,7 +4,7 @@ author: Brandon L. Black, <blblack@gmail.com>
 build_requires: 
   Test::More: 0.47
 distribution_type: module
-generated_by: Module::Install version 0.65
+generated_by: Module::Install version 0.670
 license: perl
 meta-spec: 
   url: http://module-build.sourceforge.net/META-spec-v1.3.html
@@ -14,6 +14,10 @@ no_index:
   directory: 
     - inc
     - t
+provides: 
+  MRO::Compat: 
+    file: lib/MRO/Compat.pm
+    version: 0.03
 requires: 
-  Class::C3: 0.18
-version: 0.02
+  Class::C3: 0.19
+version: 0.03
