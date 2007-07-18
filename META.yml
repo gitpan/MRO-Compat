@@ -17,7 +17,7 @@ no_index:
 provides: 
   MRO::Compat: 
     file: lib/MRO/Compat.pm
-    version: 0.03
+    version: 0.04
 requires: 
   Class::C3: 0.19
-version: 0.03
+version: 0.04
