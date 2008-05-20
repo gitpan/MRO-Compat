@@ -18,5 +18,7 @@ no_index:
 provides: 
   MRO::Compat: 
     file: lib/MRO/Compat.pm
-    version: 0.06_01
-version: 0.06_01
+    version: 0.07
+requires: 
+  perl: 5.6.0
+version: 0.07
