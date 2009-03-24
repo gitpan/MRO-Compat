@@ -1,4 +1,4 @@
-use inc::Module::Install 0.65;
+use inc::Module::Install 0.75;
 
 name          'MRO-Compat';
 all_from      'lib/MRO/Compat.pm';
@@ -15,5 +15,4 @@ if($] < 5.009_005) {
 system("pod2text lib/MRO/Compat.pm >README") if -e 'MANIFEST.SKIP';
 
 auto_provides;
-auto_install;
 WriteAll;
