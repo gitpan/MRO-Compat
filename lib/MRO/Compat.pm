@@ -5,7 +5,7 @@ require 5.006_000;
 
 # Keep this < 1.00, so people can tell the fake
 #  mro.pm from the real one
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 BEGIN {
     # Alias our private functions over to
@@ -212,8 +212,8 @@ sub __get_mro {
 =head2 mro::get_isarev($classname)
 
 Returns an arrayref of classes who are subclasses of the
-given classname.  In other words, classes who we exist,
-however indirectly, in the @ISA inheritancy hierarchy of.
+given classname.  In other words, classes in whose @ISA
+hierarchy we appear, no matter how indirectly.
 
 This is much slower on pre-5.9.5 Perls with MRO::Compat
 than it is on 5.9.5+, as it has to search the entire
